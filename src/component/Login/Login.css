@@ -1,0 +1,9 @@
+.Login {
+    height:400px;
+    padding : 0 40px;
+}
+
+.Login .Login__title {
+    font-size: 2rem;
+
+}

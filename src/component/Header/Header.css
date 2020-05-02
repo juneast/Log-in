@@ -1,0 +1,28 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    padding-top:40px;
+}
+.Header button {
+    border-style: none;
+    width:260px;
+    height:53px;
+    background-color: rgb(67,83,89);
+    color: rgb(155,173,171);
+    font-size: 1.3rem;
+    transition: background-color 0.3s;
+    
+}
+.Header button:focus{
+    outline:0;
+}
+.Header button.active{
+    background-color: rgb(26,177,136);
+    color:white;
+    transition: background-color 0.3s;
+}
+.Header button:hover {
+    background-color:rgb(19, 141, 108);
+    color: rgb(155,173,171);
+    transition: background-color 0.3s;
+}
